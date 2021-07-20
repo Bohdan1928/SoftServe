@@ -40,13 +40,15 @@ public class Dog {
         this.age = age;
     }
 
-    public void getNameEquals(Dog dog){
+    public void getNameEquals(Dog dog) {
         System.out.println(!name.equals(dog.name));
     }
-    public void getOldDog(Dog dog){
-        if (age > dog.age){
+
+    public void getOldDog(Dog dog) {
+
+        if (age > dog.age) {
             System.out.println(name + " " + breed);
-        }else{
+        } else {
             System.out.println(dog.name + " " + dog.breed);
         }
     }
