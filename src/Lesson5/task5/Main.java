@@ -8,5 +8,4 @@ public class Main {
        Words words = new Words(new ArrayList<String>(), new Scanner(System.in), null);
        words.fix();
     }
-    //todo method fix
 }
